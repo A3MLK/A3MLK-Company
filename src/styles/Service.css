@@ -1,0 +1,106 @@
+.section-head .section-sub-title {
+    font-size: 16px;
+    font-weight: 700;
+    color:#2979FF;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.section-head .section-sub-title span.subtitle {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.col-lg-6 {
+  width: 50%;
+  padding: 0 15px; 
+}
+
+.tmponhover {
+    position: relative;
+    overflow: hidden;
+}
+.service-card-v2 {
+    border-radius: 20px;
+    background: #141414;
+    padding: 36px 40px 36px 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.tmponhover {
+    position: relative;
+    overflow: hidden;
+}
+
+.tmponhover::before {
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: 150%;
+    background: radial-gradient(circle, #7d35e8, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s ease, top 0.1s, left 0.1s;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.tmponhover:hover::before {
+    opacity: 1;
+}
+
+
+.tmponhover::after {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #141414;
+    border-radius: 20px;
+}
+.service-card-v2 .service-card-num {
+    color:#ffffff;
+    font-family:"Rajdhani", sans-serif ;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.service-card-v2 .service-card-num span {
+    margin-right: 15px;
+}
+.tmponhover > * {
+    z-index: 2;
+    position: relative;
+}
+.service-card-v2 .service-para
+ {
+    color: #9F9F9F;
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 22px;
+}
+.SEV{
+    max-width: 1290px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.row{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:0;
+    
+}

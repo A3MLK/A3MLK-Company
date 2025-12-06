@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Momo+Signature&family=Ms+Madi&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Momo+Signature&family=Ms+Madi&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  right: -800px;        /* مخفي */
+  width: 400px;
+  height: 100%;
+  background: #141414;
+  padding: 25px;
+  transition: 0.4s ease;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s all ease-in-out;
+}
+
+.sidebar-container.open {
+  right: 0;             /* يظهر */
+}
+
+.close-btn {
+    width: 40px;
+    height: 40px;
+    line-height: 41px;
+    text-align: center;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    padding: 0;
+    border: 0 none;
+    display: block;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner .top-area {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+}
+.top-area .logo {
+    width: 60px !important;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 10;
+}
+.close-btn:hover::after {
+    opacity: 1;
+    transform: scale(1);
+}
+.close-btn::after {
+    background: #7d35e8;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: 0.4s;
+    opacity: 0;
+    transform: scale(0.8);
+    border-radius: 100%;
+    z-index: -1;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inner .content-wrapper
+ {
+    padding: 10px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.4s ease-in-out;
+}
+.inner .image-area-feature img {
+    border-radius: 0;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+}
+.inner .content-wrapper .title {
+    color: #fff;
+    line-height: 1.4;
+    font-size: 20px;
+    font-family: "Rubik";
+}
+.overlay_close_side_menu.overlay-active {
+  opacity: 1;
+  visibility: visible;
+}
+.overlay_close_side_menu {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1091;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
+}
+.mt--30
+ {
+    margin-top: 30px !important;
+}
+h4, .h4, h5, .h5
+
+ {
+    font-weight:700;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, address, p, pre, blockquote, menu, ol, ul, table, hr
+ {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.inner .content-wrapper .disc {
+    font-family:"Rubik", sans-serif;
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
+}
+.short-contact-area .single-contact {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone-icon {
+  font-size: 18px;          /* حجم الأيقونة الحقيقي */
+  color: #fff;
+  background: transparent;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #ffffff14;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.short-contact-area .single-contact .information span
+ {
+    display: block;
+    color: #2979FF;
+    font-family:"Rajdhani", sans-serif !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.short-contact-area .single-contact .information .number {
+    color: #ffffff;
+    font-family: "Rubik", sans-serif;
+}
+.tmp-link-animation a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+}
+.tmp-link-animation a
+ {
+    position: relative;
+    display: inline-block;
+}
+.tmp-link-animation a:hover::after
+ {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+
+.sidebar-container .inner {            
+  overflow-y: auto;       
+}
+
+.sidebar-container .inner::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-container .inner::-webkit-scrollbar-thumb {
+  background: #7d35e8;
+  border-radius: 3px;
+}
+
+.sidebar-container .inner::-webkit-scrollbar-track {
+  background: transparent;
+}
+.mt--20 {
+    margin-top: 20px !important;
+}
+.social-wrapper .subtitle
+ {
+    color: #ffffff;
+    font-size:16px;
+    line-height:1.75;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  
+    font-family:"Rajdhani", sans-serif !important;
+}
+.sidebar-container .links{
+    display: none;
+}
+
+@media (max-width:1200px) {
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: -800px;        /* مخفي */
+  width: 300px;
+  height: 100%;
+  background: #141414;
+  padding: 25px;
+  transition: 0.4s ease;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s all ease-in-out;
+}
+.close-btn {
+    background: #060606;
+    border: 0 none;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.sidebar-container.open {
+  left: 0;             /* يظهر */
+}
+.top-area{
+    border-bottom: 1px solid #ffffff14;
+    padding: 15px 0 !important;
+    margin-bottom: 0 !important;
+}
+.inner .image-area-feature img {
+   display: none;
+}
+.inner .content-wrapper .title{
+    display: none;
+}
+.inner .content-wrapper .disc{
+display: none;
+}
+  .short-contact-area{
+    display: none;
+  }
+ .sidebar-container .links{
+    display: block;
+}
+  .menu-btn {
+    display: block;
+  }
+  .sidebar-container .links li a{
+    color: #9f9f9f !important;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family:"Rubik", sans-serif;
+    margin: 0;
+    display: block;
+    font-weight: 500;
+    background: transparent;
+  }
+.sidebar-container .links  li {
+    display: block;
+    margin: 0;
+    padding: 8px 0;
+}
+.sidebar-container li + li {
+    border-top: 1px solid #ffffff14;
+    
+}
+.sidebar-container .links li a {
+    padding: 0px 0px !important;
+}
+.mt--20 {
+    margin-top: 40px;
+  position: relative;
+  right: 3px;
+}
+.sidebar-container .links li a::after {
+    content: none;
+}
+.col-lg-3 {
+    width: 50% !important;
+}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 90% !important;
+    margin-bottom: 0px !important;
+}
+.content{
+    margin-top: 0px !important;
+}
+.col-lg-4 {
+    width:40% !important;
+    margin-bottom: 2rem;
+}
+.contact-get-in-touch-wrap{
+  width: 85%;
+  margin: 0 auto;
+}
+#contact .section-head .title {
+    color: #ffffff;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 38px !important; 
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+.contact-form .contact-form-wrapper .form-group {
+    margin-bottom: 30px !important;
+}
+.contact-get-in-touch-wrap .get-in-touch-wrapper .section-head{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+}

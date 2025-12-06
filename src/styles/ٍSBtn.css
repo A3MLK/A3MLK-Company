@@ -1,0 +1,49 @@
+.scrollToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  background: #7d35e8; /* اللون الوردي */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 6px 20px #3b2a54;
+  transition: all 0.3s ease;
+}
+
+.scrollToTop:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px #7d35e8;
+}
+.scrollToTop  .i {
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    transform: rotate(180deg);
+}
+@media (max-width: 1200px) {
+      #footer .col-lg-3 {
+       margin-top: 30px !important;
+       text-align: left;
+    }
+    #footer .row{
+      justify-content: flex-start;
+      padding: 0px ;
+      padding-left: 50px;
+    }
+  .latest-portfolio-card.v5 {
+    overflow:visible; 
+    margin-bottom: 10px;
+}
+.main-wrapper{
+  flex-direction: column;
+}
+}

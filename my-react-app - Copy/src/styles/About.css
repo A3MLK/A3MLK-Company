@@ -1,0 +1,121 @@
+.section-head {
+    text-align: center;
+}
+.section-head .section-sub-title.center-title {
+    justify-content: center;
+}
+.section-head .section-sub-title {
+    font-size: 16px;
+    font-weight: 700;
+    color:#FF014F;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+#about .section-head .section-sub-title span.subtitle {
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.section-head .title {
+    color:#ffffff;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+.section-head .description {
+    margin-top: 10px;
+    color:#9F9F9F ;
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.section-head .section-sm {
+    max-width: 50%;
+}
+.section-head .section-sm {
+    max-width: 50%;
+}
+.section-head .section-sm {
+    display: inline-flex;
+}
+.tmp-scroll-trigger:not(.tmp-scroll-trigger--offscreen).tmp-fade-in {
+    animation: fadeInUp 600ms ease forwards;
+     animation-delay: calc(3* 75ms);
+}
+@keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 50%, 0);
+}
+100% {
+    opacity: 1;
+    transform: none;
+}
+}
+.se{
+    margin-right: auto;
+    margin-left: auto;
+}
+#about .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.service-card-v1 {
+    border-radius: 20px;
+    border: 1px solid rgba(255, 73, 74, 0.16);
+    padding: 40px 0 40px 0;
+    transition: 0.4s;
+}
+
+.service-card-v1 .service-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 55px;
+    min-height: 55px;
+    color: #FF014F;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.service-card-v1 .service-title {
+    color: #ffffff;
+    font-family:"Rajdhani", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.service-card-v1 .service-para {
+    color: #9F9F9F;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.se a:hover
+ {
+    color:#FF014F;
+}

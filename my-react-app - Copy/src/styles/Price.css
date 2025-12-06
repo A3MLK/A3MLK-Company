@@ -1,0 +1,123 @@
+.align-items-center {
+    align-items: center !important;
+}
+#price .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+#price .row {
+    padding-inline: 3rem;
+}
+
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    padding: 0 20px;
+}
+.col-lg-4.center {
+  transform: scale(1.08);                       /* أكبر شوية */
+  z-index: 10;                                   /* بارز لقدام */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);       /* ظل أقوى */
+}
+.price-plan-card {
+    border-radius: 20px;
+    background: #141414;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+}
+.price-plan-card .price-sub-title {
+    color:#ffffff;
+    font-family:"Rajdhani", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.price-plan-card .main-price {
+    color: #ffffff;
+    font-family:"Rajdhani", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.price-plan-card {
+     padding: 40px;
+}
+.check-box
+ {
+ padding-bottom: 40px;
+}
+.price-plan-card .per-month {
+    color: #ffffff;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 28px;
+}
+.check-box {
+     padding-bottom: 40px;
+}
+.check-box {
+    border-top: 2px solid rgba(157, 157, 255, 0.0509803922);
+    padding-top: 43px;
+}
+.check-box ul li {
+    margin: 0 0 15px 0;
+}
+.check-box .check-box-item {
+    display: flex;
+    gap: 10px;
+}
+.check-box .check-box-item .box-icon {
+    color: #FF014F;
+}
+.check-box .check-box-item .box-para {
+    color:#9F9F9F ;
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.tmponhover::after {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #141414;
+    border-radius: 20px;
+}
+
+#price .tmp-btn {
+    background: transparent;
+    border: 2px solid #ffffff14;
+    color: #9f9f9f;
+    font-weight: 500;
+    display: flex;         
+    align-items: center;      
+    justify-content: center;  
+    text-decoration: none;
+    text-transform: capitalize;
+    position: relative;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 14px;
+    gap: 8px;                  
+    transition: all 0.4s ease-in-out;
+    width: 64%;
+}
+.center .tmp-btn{
+    background-color: #FF014F !important;
+    color: #ffffff !important;
+}
+.tmp-btn:hover .hover-icon-reverse .btn-text {
+    transition-delay: 0.1s;
+    transform: translateX(23px);
+}
+.tmp-btn:hover {
+    background: #FF014F !important;
+    border-color:#FF014F !important;
+    color:#fff !important;
+    z-index: 100;
+}

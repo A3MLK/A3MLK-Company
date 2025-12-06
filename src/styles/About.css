@@ -1,0 +1,230 @@
+.section-head {
+    text-align: center;
+}
+.section-head .section-sub-title.center-title {
+    justify-content: center;
+}
+.section-head .section-sub-title {
+    font-size: 16px;
+    font-weight: 700;
+    color:#2979FF;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.tmp-section-gapTop
+ {
+    padding-top: 120px;
+}
+#about .section-head .section-sub-title span.subtitle {
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.section-head .title {
+    color:#ffffff;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+.section-head .description {
+    margin-top: 10px;
+    color:#9F9F9F ;
+    font-family:"Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.section-head .section-sm {
+    max-width: 50%;
+}
+.section-head .section-sm {
+    max-width: 50%;
+}
+.section-head .section-sm {
+    display: inline-flex;
+}
+.tmp-scroll-trigger:not(.tmp-scroll-trigger--offscreen).tmp-fade-in {
+    animation: fadeInUp 600ms ease forwards;
+     animation-delay: calc(3* 75ms);
+}
+@keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 50%, 0);
+}
+100% {
+    opacity: 1;
+    transform: none;
+}
+}
+.se{
+    margin-right: auto;
+    margin-left: auto;
+}
+#about .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 2rem;
+}
+
+.service-card-v1 {
+    border-radius: 20px;
+    border: 1px solid rgba(34, 71, 141, 0.627);
+    padding: 40px 0 40px 0;
+    transition: 0.4s;
+}
+
+.service-card-v1 .service-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 55px;
+    min-height: 55px;
+    color: #2979FF;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.service-card-v1 .service-title {
+    color: #ffffff;
+    font-family:"Rajdhani", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.service-card-v1 .service-para {
+    color: #9F9F9F;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.se a:hover
+ {
+    color:#2979FF;
+}
+.custom-title span img
+ {
+    opacity: 0.3;
+}
+.custom-title span {
+    margin-left: 20px;
+}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.custom-title
+ {
+    color: #ffffff;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: capitalize;
+    position: relative;
+}
+.progress-charts h6.heading {
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:"Rubik", sans-serif;
+    letter-spacing: 1px;
+}
+.progress-charts .progress {
+    height: 8px;
+    overflow: visible;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 3px;
+    background:#141414;
+    display: flex;
+}
+.progress-charts .progress .progress-bar {
+    overflow: visible;
+    border-radius: 14px;
+    background: #7d35e8 !important;
+    height: 100%;
+}
+.progress .progress-bar {
+    transition: width 0.5s 
+ease;
+}
+.progress-charts .progress .progress-bar span.percent-label {
+    position: absolute;
+    right: 0;
+    top: -37px;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    font-family: "Rubik", sans-serif;
+}
+.progress .progress-bar {
+    background-color: #7d35e8;
+
+}
+.progress-charts .progress {
+    background-color: #141414;
+    border-radius: 14px;
+    overflow: visible;
+    position: relative;
+}
+.progress-charts .progress {
+    display: flex;
+}
+.progress-charts + .progress-charts {
+    margin-top: 30px;
+}
+
+.progress-charts {
+     margin-bottom: 30px; 
+}
+
+.progress-bar {
+     height: 100%;
+    border-radius: 14px;
+    background-color: #7d35e8;
+    transition: width 0.5s ease;
+     position: relative;
+}
+.progress-charts .progress {
+        
+    border-radius: 12px;     
+    background-color: #141414; 
+    display: flex;
+    position: relative;
+    padding: 0;               
+}
+
+.progress-charts .progress .progress-bar {
+    height: 100%;               /* ممتد كامل */
+    border-radius: 12px;        /* نفس حواف container */
+    background-color: #7d35e8;
+    transition: width 0.5s ease;
+    position: relative;
+}
+
