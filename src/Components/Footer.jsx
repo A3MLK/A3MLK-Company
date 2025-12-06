@@ -59,7 +59,7 @@ const Footer = () => {
                                 <li>
                                     <span class="ft-icon">
                                         <FaLocationDot/>
-                                        </span>Egypt (Beni seuif)</li>
+                                        </span>Egypt</li>
                                 <li>
                                     <span class="ft-icon">
                                         <FaPhone />

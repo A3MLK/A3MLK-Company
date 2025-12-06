@@ -45,7 +45,7 @@ const SideBar = ({ open, setOpen }) => {
                      <MdMyLocation  className="phone-icon"/>
                     <div className="information tmp-link-animation">
                        <span>My Address</span>
-                      <span class="number">Egypt (Beni seuif)</span>
+                      <span class="number">Egypt</span>
                         </div>
                 </div>
                </div>
