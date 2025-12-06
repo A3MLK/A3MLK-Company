@@ -6,6 +6,7 @@ import { IoMail } from "react-icons/io5";
 import { MdMyLocation } from "react-icons/md";
 import { FaFacebookF, FaLinkedinIn,FaGithub,FaTiktok } from "react-icons/fa";
 import logo from '../assets/logo.jpg'
+import man from "../assets/man.png"
 
 const SideBar = ({ open, setOpen }) => {
   return (
@@ -15,13 +16,13 @@ const SideBar = ({ open, setOpen }) => {
     <div className={`sidebar-container ${open ? "open" : ""}`}>
         <div className="inner">
             <div className="top-area">
-                <a href="#" className="logo"><img src="src/assets/logo.jpg" alt="" /></a>
+                <a href="#" className="logo"><img src={logo} alt="" /></a>
                  <button className="close-btn" onClick={() => setOpen(false)}> <FaXmark /></button>
             </div>
             <div className="content-wrapper">
                 <div className="image-area-feature">
                     <a href="#">
-                        <img src={logo} alt="personal-logo"></img>
+                        <img src={man} alt="personal-logo"></img>
                     </a>
                 </div>
                 <h5 class="title mt--30">Crafting Modern Websites & Mobile Apps for Your Business</h5>
