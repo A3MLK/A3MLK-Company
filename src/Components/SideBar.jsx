@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { MdMyLocation } from "react-icons/md";
 import { FaFacebookF, FaLinkedinIn,FaGithub,FaTiktok } from "react-icons/fa";
+import logo from '../assets/logo.jpg'
 
 const SideBar = ({ open, setOpen }) => {
   return (
@@ -20,7 +21,7 @@ const SideBar = ({ open, setOpen }) => {
             <div className="content-wrapper">
                 <div className="image-area-feature">
                     <a href="#">
-                        <img src="src/assets/man.png" alt="personal-logo"></img>
+                        <img src={logo} alt="personal-logo"></img>
                     </a>
                 </div>
                 <h5 class="title mt--30">Crafting Modern Websites & Mobile Apps for Your Business</h5>
