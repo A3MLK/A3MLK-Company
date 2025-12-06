@@ -20,3 +20,6 @@ body {
 {
     padding-top: 120px;
 }
+body {
+  border: 3px solid red;
+}
