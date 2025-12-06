@@ -52,7 +52,7 @@ const About = () => {
 
                   {/* الشريط الأول */}
                   <div className="progress-charts">
-                    <h6 className="heading heading-h6">Dart</h6>
+                    <h6 className="heading heading-h6">Flutter</h6>
                     <div className="progress">
                       <div
                         className="progress-bar"

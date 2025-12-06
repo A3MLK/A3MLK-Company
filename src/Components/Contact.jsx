@@ -40,7 +40,7 @@ Message: ${message}
 
 
   const Cards = [
-    { id: 1, title: 'Address', para: 'Egypt (Beni Seuif)', children: <FaLocationDot /> },
+    { id: 1, title: 'Address', para: 'Egypt', children: <FaLocationDot /> },
     { id: 2, title: 'E-mail', para: 'amlk10375@gmail.com', children: <MdEmail /> },
     { id: 3, title: 'Call Me', para: '+20 (01105474782)', children: <FaPhone /> },
   ];
