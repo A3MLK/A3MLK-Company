@@ -187,6 +187,7 @@ ease;
 .navbar-container .links{
     display: none;
 }
+
 }
 @media (max-width:768px) {
   .social-link a{
@@ -197,6 +198,17 @@ ease;
     max-width: 100%;
     
   }
+.banner-right-content
+ {
+    transform: translateX(0px) !important;
+    overflow: hidden;
+}
+  html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
 }
 
 
